@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    min-height: 80vh;
+    background-color: #f8f9faef;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 35rem;
+    width: 100%;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    padding: 3.5rem 2.5rem; 
+}
+h1 {
+    font-size: 4rem;
+    color: #333333;
+}
+p {
+    font-size: 2rem;
+    color: #666666;
+}
+form {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 5px;
+}
+input {
+    width: 100%;
+    color: #212529;
+    background-color: #f8f9fa;
+    border: 0.2rem solid #dee2e6;
+    outline: none;
+    transition: all 0.2s ease;
+    text-align: center;
+}
+input:focus {
+    background-color: #ffffff;
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.4rem rgba(13, 110, 253, 0.15);
+}
+button {
+    background-color: #0d6efd;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0b5ed7;
+}
+button:active {
+    transform: scale(0.98);
+    background-color: #0a58ca;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input, button {
+    padding: 14px 10px;
+    border-radius: 8px;
+    font-size: 2rem;
+}
